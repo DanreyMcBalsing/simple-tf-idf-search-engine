@@ -7,9 +7,9 @@
 import math
 import re
 import operator
-with open("Inverted_Index/Corpus.txt","r+") as a:#importing the corpus
+with open("DS/Corpus.txt","r+") as a:#importing the corpus
     corpus=a.read()
-with open("Inverted_Index/Stopwords.txt","r+") as b: #importing stopwords
+with open("DS/Stopwords.txt","r+") as b: #importing stopwords
     stopwords=b.read()
 
 
